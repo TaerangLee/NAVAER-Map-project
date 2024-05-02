@@ -9,12 +9,12 @@ export const ButtonWrapper = styled.div`
   justify-content: center;
   padding: 0.625rem 1.25rem;
   align-items: center;
+  cursor: pointer;
 `;
 
 export const SpanContainer = styled.div`
   display: flex;
   gap: 0.3125rem;
-  cursor: pointer;
 `;
 
 export const Span1 = styled.span`
