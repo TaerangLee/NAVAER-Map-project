@@ -1,30 +1,30 @@
 import styled from "@emotion/styled";
 
 export const ButtonWrapper = styled.div`
-  width: 270px;
-  height: 35px;
+  width: 16.875rem;
+  height: 2.1875rem;
   background-color: #1c9ffb;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   display: flex;
   justify-content: center;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   align-items: center;
 `;
 
 export const SpanContainer = styled.div`
   display: flex;
-  gap: 5px;
+  gap: 0.3125rem;
   cursor: pointer;
 `;
 
 export const Span1 = styled.span`
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   color: #fffa06;
 `;
 
 export const Span2 = styled.span`
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   color: white;
 `;
