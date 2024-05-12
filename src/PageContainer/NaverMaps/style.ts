@@ -30,18 +30,19 @@ export const Button = styled.div`
   margin-top: 1.25rem;
 `;
 
-export const InputContainer = styled.div`
+export const MapContainer = styled.div`
   width: 100%;
   position: absolute;
   z-index: 1;
   display: flex;
-  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
 `;
 
 export const SearchContainer = styled.div`
   display: flex;
   gap: 0.625rem;
-  margin: 1.5625rem 1.5625rem;
+  margin: 3.5625rem 1.5625rem;
 `;
 
 export const SearchInput = styled.input`
@@ -63,3 +64,4 @@ export const Search = styled.div`
   align-items: center;
   cursor: pointer;
 `;
+
