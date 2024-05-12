@@ -23,7 +23,7 @@ export const ButtonContainer = styled.div`
 export const Button = styled.div`
   background-color: lightblue;
   padding: 0.625rem 1.25rem;
-  border-radius: 7px;
+  border-radius: 0.4375rem;
   cursor: pointer;
   color: white;
   font-weight: 600;
@@ -40,18 +40,18 @@ export const InputContainer = styled.div`
 
 export const SearchContainer = styled.div`
   display: flex;
-  gap: 10px;
-  margin: 25px 25px;
+  gap: 0.625rem;
+  margin: 1.5625rem 1.5625rem;
 `;
 
 export const SearchInput = styled.input`
-  width: 300px;
-  height: 50px;
+  width: 18.75rem;
+  height: 3.125rem;
   border: 0;
-  border-radius: 3px;
+  border-radius: 0.1875rem;
   outline: none;
-  text-indent: 10px;
-  font-size: 18px;
+  text-indent: 0.625rem;
+  font-size: 1.125rem;
 `;
 
 export const Search = styled.div`
